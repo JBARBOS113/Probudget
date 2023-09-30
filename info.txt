@@ -1,0 +1,17 @@
+---Comado de ejecucion de casos------------------------------------------------------------------------------
+*comamdo para ejecutar una sola prueba
+npx cypress run --spec "cypress/integration/mi_prueba.spec.js"
+*Comando para ejecutar todas las preubas en consola 
+npx cypress run  
+-------------------------------------------------------------------------------------------------------------
+Comandos de instalacion
+-para iniciar la isntalacion
+npm init
+-instalar cypres
+npm install cypress --save-dev
+-instalar cucumber
+npm install --save-dev cypress-cucumber-preprocessor
+-correr el proyecto
+npx cypress open
+para correr de manera local
+npx cypress run
