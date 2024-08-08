@@ -8,6 +8,9 @@ module.exports = defineConfig({
       // implement node event listeners here
       on('file:preprocessor', cucumber())
     },
-    baseUrl: "http://192.168.3.3:7135/choose-app"
+    baseUrl: "http://192.168.3.3:7135/unicolombo/choose-app"
   },
+  env: {
+    const: waits= 1000
+  }
 });

@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import 'cypress-xpath';
+import './commands'
+
+Cypress.Commands.add('xpath', { prevSubject: 'element' }, (subject, xpath, options) => {
+  cy.wrap(subject, options).xpath(xpath);
+});
