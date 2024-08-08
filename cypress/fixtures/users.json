@@ -1,4 +1,48 @@
-{
-  "username1": "a",
-  "passworld1": "a"
-}
+
+[
+  {
+    "id":1,
+    "name":"Lider Presupuesto",
+    "username": "lider_presupuesto2",
+    "Password": "123456789"
+  },
+  {
+    "id":2,
+    "name":"Auxiliar Presupuesto",
+    "username": "auxiliar_presupuesto",
+    "Password": "123456789"
+  },
+  {
+    "id":3,
+    "name":"Lider Compras",
+    "username": "lider_compras",
+    "Password":"123456789"
+  },
+  {
+    "id":4,
+    "name":"auxiliar Compras",
+    "username": "auxiliar_compras",
+    "Password": "123456789"
+  },
+  {
+    "id":5,
+    "name":"Lider Area",
+    "username": "lider_area",
+    "Password": "123456789"
+  },
+  {
+    "id":6,
+    "name":"Auxiliar Area",
+    "username": "auxiliar_area",
+    "Password": "123456789"
+  },
+  {
+    "id":7,
+    "name":"",
+    "username": "",
+    "Password": ""
+  }
+]
+
+
+

@@ -5,13 +5,10 @@ const users = require('../../../fixtures/users.json')
 beforeEach('The user can be on the honepaga',()=>{
     Given('The user can to select options',()=>{
         cy.visit("/")
-        const datausers = users
         LoginPage.clickAplication()
-        LoginPage.clickPage()
-        LoginPage.loginpagevalidate()
-        LoginPage.typeuserName(datausers.username1)
-        LoginPage.typeuserPassworld(datausers.passworld1)
-        LoginPage.loginuserPage()
+        LoginPage.validatePage()
+        LoginPage.getuserPage(1) 
+        LoginPage.clickloginPage()
         LoginPage.resulLogin()
     |   cy.log('user login success')
     })
